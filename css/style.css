@@ -40,6 +40,7 @@ header nav ul a {
   text-decoration: none;
   padding: 0 1.5rem;
   font-size: 1rem;
+  font-weight: 200;
   transition: 0.5s;
 }
 
@@ -63,6 +64,40 @@ header nav ul a:hover {
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
   transform: translateY(-5vh);
+}
+
+/* .cool-text-1 {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  line-height: 1.2;
+  transform: translateY(-5vh);
+} */
+
+/* .text-ai {
+  background: linear-gradient(to bottom, #004ab9, #219bff, #6fd6ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+
+.text-ai {
+  background: linear-gradient(to bottom, #003990, #37c6ff, #90dfff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* .text-ai-2 {
+  background: linear-gradient(to right, #4e82ee, #9b72ca, #d96570);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+
+.text-ai-2 {
+  background: linear-gradient(to right, #37c6ff, #a35af7, #d96570);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .cool-text-1-1 {
@@ -196,10 +231,15 @@ header nav ul a:hover {
   font-weight: 300;
 }
 
+footer {
+  font-weight: 200;
+}
+
 footer a {
   color: var(--text-primary);
   text-decoration: none;
   padding: 0 0;
+  font-weight: 300;
   font-size: 1rem;
   transition: 0.5s;
 }
@@ -207,10 +247,6 @@ footer a {
 footer a:hover {
   transition: 0.5s;
   color: var(--background-primary);
-}
-
-footer p {
-  text-align: center;
 }
 
 footer .button {
@@ -233,12 +269,12 @@ footer button:hover {
   cursor: pointer;
   transition: 0.75s;
 }
-
+/* 
 footer input {
   padding: 0.8rem 0.8rem;
   border-radius: 30px;
   width: 60%;
-}
+} */
 
 @media (max-width: 1100px) {
   .cool-text-1 {
