@@ -180,6 +180,10 @@ header nav ul a:hover {
   font-size: 3rem;
 }
 
+.cool-text-2 p {
+  font-size: 1.3rem;
+}
+
 #hero-2 {
   position: relative;
   display: flex;
@@ -312,6 +316,14 @@ footer input {
     padding: 0.5rem 0.8rem;
     border-radius: 30px;
     width: 85%;
+  }
+
+  .cool-text-2 {
+    font-size: 2rem;
+  }
+
+  .cool-text-2 p {
+    font-size: 1rem;
   }
 }
 
